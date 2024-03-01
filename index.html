@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAKTHISTEVE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--for skill icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Responsive Hamburger Menu Bar -->
+    <div class="topnav" id="myTopnav">
+      <a href="#Home" class="active">Home</a>
+      <a href="#About">About</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Achievements">Achievements</a>
+      <a href="#Contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- Header -->
+    <header id="Home" class="relative mt-0" style="margin-top: -16px">
+      <div class="bg-gray-900 text-white py-10 md:py-20">
+        <div class="container mx-auto text-center">
+          <!-- Your existing content -->
+          <div class="container">
+            <h1 class="text-4xl font-bold"></h1>
+            <p id="demo" class="text-lg mt-4 typing-text">
+              Welcome to my Portfolio
+            </p>
+          </div>
+          <br /><br />
+
+          <h2
+            class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-100 leading-tight mb-4"
+          >
+            I Am <span>Sakthivel</span><br /><br />
+          </h2>
+
+          <div class="text-base md:text-lg lg:text-xl font-semibold mb-6">
+            <p>
+              I am a skilled software engineer passionate about creating
+              innovative solutions and driving innovation in software
+              engineering processes.
+            </p>
+          </div>
+
+          <!-- Social media icons -->
+          <div class="flex justify-center items-center mt-4 md:mt-8">
+            <a
+              href="https://www.linkedin.com/in/sakthivel-p-043b5425b/"
+              target="_blank"
+              class="text-white hover:text-blue-500 mx-2"
+            >
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a
+              href="https://github.com/sakthivel1011"
+              target="_blank"
+              class="text-white hover:text-blue-500 mx-2"
+            >
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/sakthisteve_/"
+              target="_blank"
+              class="text-white hover:text-blue-500 mx-2"
+            >
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100068885364816"
+              target="_blank"
+              class="text-white hover:text-blue-500 mx-2"
+            >
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a
+              href="mailto:sakthivel.p1011@gmail.com"
+              class="text-white hover:text-blue-500 mx-2"
+            >
+              <i class="fas fa-envelope fa-lg"></i>
+            </a>
+          </div>
+
+          <!-- "View Resume" button -->
+          <a
+            href="https://drive.google.com/file/d/1oNUIP75mdO8IqcipQK4GoyzkurjfyMgS/view?usp=sharing"
+            class="mt-8 inline-block bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 transition duration-300 text-base md:text-lg"
+          >
+            View Resume
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="About" class="py-20 bg-gray-100">
+      <div
+        class="container mx-auto flex flex-wrap items-center justify-between"
+      >
+        <!-- About Me Paragraph -->
+        <div class="w-full lg:w-3/5 px-4">
+          <center>
+            <h2 class="text-3xl lg:text-4xl font-semibold mb-6 text-gray-800">
+              About Me
+            </h2>
+          </center>
+          <p class="text-lg lg:text-xl leading-relaxed text-gray-700">
+            I am Sakthivel, a dedicated and versatile software engineer with a
+            passion for creating innovative solutions. With expertise in Java
+            and proficiency in front-end development tools such as HTML, CSS,
+            and JavaScript, I bring a wealth of technical knowledge to every
+            project I undertake. My solid foundation in SQL allows me to excel
+            in database management and design, ensuring robust and efficient
+            systems.
+          </p>
+          <p class="text-lg lg:text-xl leading-relaxed text-gray-700 mt-4">
+            Beyond technical skills, I possess strong leadership abilities and
+            effective time management skills, enabling me to lead teams and
+            projects effectively. I thrive in collaborative environments where I
+            can leverage my expertise to drive innovative solutions and deliver
+            results that exceed expectations.
+          </p>
+          <p class="text-lg lg:text-xl leading-relaxed text-gray-700 mt-4">
+            Let's connect and explore how we can collaborate to achieve your
+            goals.
+          </p>
+        </div>
+        <!-- Photo -->
+        <div class="w-full lg:w-2/5 px-4 mt-10 lg:mt-0">
+          <img
+            src="me1.jpg"
+            alt="Sakthivel"
+            class="rounded-full border-4 border-gray-300"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+
+    <section id="Skills" class="py-10 md:py-20">
+      <div class="container mx-auto">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">
+          Professional Skills
+        </h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Java -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-java text-red-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Java</span>
+          </div>
+          <!-- HTML/CSS -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-code text-blue-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">HTML/CSS</span>
+          </div>
+          <!-- JavaScript -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-js text-yellow-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">JavaScript</span>
+          </div>
+          <!-- Python -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fab fa-python text-green-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Python</span>
+          </div>
+          <!-- Problem Solving -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-brain text-purple-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Problem Solving</span>
+          </div>
+          <!-- MySQL -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="fas fa-database text-orange-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">MySQL</span>
+          </div>
+          <!-- Time Management -->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-4 md:p-8 rounded-lg text-center skill-item"
+          >
+            <i
+              class="far fa-clock text-pink-500 text-4xl md:text-6xl mb-2 md:mb-4"
+            ></i>
+            <span class="text-xs md:text-sm">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="Projects" class="py-10 md:py-20 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-2xl md:text-3xl font-semibold mb-4 text-center">
+          Projects
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- Project 1: Snack game using Python -->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="project1.jpg" alt="Project 1" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+              Snack game using Python
+            </h3>
+            <p class="text-sm md:text-base">
+              This project is a simple snack game developed using Python. It
+              involves controlling a snake to eat food and grow while avoiding
+              obstacles.
+            </p>
+            <!-- Python Icon and GitHub Link -->
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-python text-green-500 text-4xl"></i>
+              <a
+                href="https://github.com/your-python-project"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+          <!-- Project 2: Basic Calculator using Java AWT and Swing -->
+          <div class="flex flex-col bg-white p-4 md:p-6 rounded-lg shadow-md">
+            <img src="project2.jpg" alt="Project 2" class="rounded-lg mb-4" />
+            <h3 class="text-lg md:text-xl font-semibold mb-2">
+              Basic Calculator using Java AWT and Swing
+            </h3>
+            <p class="text-sm md:text-base">
+              This project is a basic calculator application developed using
+              Java AWT and Swing. It provides simple arithmetic operations in a
+              user-friendly interface.
+            </p>
+            <!-- Java Icon and GitHub Link -->
+            <div class="flex justify-between items-center mt-4">
+              <i class="fab fa-java text-red-500 text-4xl"></i>
+              <a
+                href="https://github.com/your-java-project"
+                target="_blank"
+                class="text-gray-600 hover:text-gray-900"
+              >
+                <i
+                  class="fab fa-github text-gray-600 hover:text-gray-900 text-4xl"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-10 md:py-20 bg-gray-100">
+      <div class="container mx-auto">
+        <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-center">
+          Achievements
+        </h2>
+
+        <!-- Grid for Achievements -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <!-- Achievement 1 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Internship</h3>
+            <p class="mb-6">
+              Successfully completed virtual internship training on Android
+              application development with IoT conducted by the National Small
+              Industries Corporation Limited (NSIC), a Government of India
+              enterprise, showcasing proficiency in simple applications.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate1')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate1"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate1.jpg"
+                  alt="Certificate 1"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate1')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Internship</h3>
+            <p class="mb-6">
+              Completed a one-week internship at Brazy Technologies, gaining
+              practical experience in web development technologies and
+              methodologies, including HTML, CSS, and JavaScript.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate2')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate2"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate2.jpg"
+                  alt="Certificate 2"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate2')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+            <p class="mb-6">
+              Completed Machine Learning courses by Infosys Springboard.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate3')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate3"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate3.jpg"
+                  alt="Certificate 3"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate3')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+            <p class="mb-6">
+              Completed Machine Learning courses by Infosys Springboard.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate3')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate3"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate3.jpg"
+                  alt="Certificate 3"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate3')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+            <p class="mb-6">
+              Completed Machine Learning courses by Infosys Springboard.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate3')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate3"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate3.jpg"
+                  alt="Certificate 3"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate3')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+            <p class="mb-6">
+              Completed Machine Learning courses by Infosys Springboard.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate3')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate3"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate3.jpg"
+                  alt="Certificate 3"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate3')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div
+            class="achievement-item rounded-lg border border-gray-300 p-6 flex flex-col items-center justify-center text-center shadow-lg"
+          >
+            <h3 class="text-xl md:text-2xl font-semibold mb-4">Achievement</h3>
+            <p class="mb-6">
+              Completed Machine Learning courses by Infosys Springboard.
+            </p>
+            <button
+              onclick="toggleCertificate('certificate3')"
+              class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded mb-4"
+            >
+              View Certificate
+            </button>
+            <!-- Certificate Pop-up (Hidden by Default) -->
+            <div
+              id="certificate3"
+              class="certificate-popup hidden fixed inset-0 z-50 bg-black bg-opacity-75 flex justify-center items-center"
+            >
+              <div
+                class="relative max-w-md w-full bg-white rounded-lg shadow-lg p-6"
+              >
+                <img
+                  src="certificate3.jpg"
+                  alt="Certificate 3"
+                  class="max-w-full mb-4"
+                />
+                <button
+                  onclick="toggleCertificate('certificate3')"
+                  class="absolute top-0 right-0 m-4 text-gray-700"
+                >
+                  &times;
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Repeat the pattern for the remaining subsections -->
+        </div>
+      </div>
+    </section>
+
+    <!--contact-->
+
+    <form
+      id="Contact"
+      action="https://api.web3forms.com/submit"
+      method="POST"
+      class="container mx-auto max-w-md p-4 bg-white rounded-lg shadow-lg"
+    >
+      <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+      <br /><br />
+
+      <input
+        type="hidden"
+        name="access_key"
+        value="f361bb1f-4fda-4aaa-9e85-6520ff416b9a"
+      />
+      <div class="mb-4">
+        <label for="name" class="block text-gray-700">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-gray-700">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        />
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block text-gray-700">Message:</label>
+        <textarea
+          id="message"
+          name="message"
+          required
+          rows="4"
+          class="w-full px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:border-blue-500"
+        ></textarea>
+      </div>
+      <button
+        type="submit"
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+      >
+        Submit Form
+      </button>
+    </form>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+      <div class="container mx-auto">
+        <p>&copy; 2024 All rights reserved. Portfolio designed by sakthi</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!--scroll to top button-->
+
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">
+      ↑
+    </button>
+    <div class="scroll-progress" id="scrollProgress"></div>
+  </body>
+</html>
